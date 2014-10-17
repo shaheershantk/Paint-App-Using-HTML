@@ -1,0 +1,36 @@
+<!DOTYPE HTML>
+<html>
+<title> MY paint </title>
+<body>
+<style>
+html,body{
+	width :900
+	height :500
+}
+#tmp_canvas {
+	position: absolute;
+	left: 0px; right: 0px;
+	bottom: 0px; top: 0px;
+	cursor: cross;
+}
+#sketch {
+	width: 900
+	height:500
+	position:absolute;
+	}
+</style>
+<canvas id="paint" width="900" height="500"
+style="border:2px solid brown"></canvas>
+<div id="sketch"></div>
+<input type="button" value="pencil" id="pencil">
+<input type="button" value="rectangle" id="rectangle">
+<input type="button" value="circle" id="circle">
+<input type="button" value="line" id="line">
+<input type="button" value="eraser" id="eraser">
+<input type="button" value="clear" id="clear">
+<input type="button" value="black" id="black">
+<input type="button" value="red" id="red">
+<input type="button" value="green" id="green">
+<script type="text/javascript" src="paint.js"></script>
+</body>
+<html>
